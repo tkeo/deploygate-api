@@ -8,9 +8,9 @@ Gem::Specification.new do |spec|
   spec.version       = Deploygate::Api::VERSION
   spec.authors       = ["Takeo Fujita"]
   spec.email         = ["takeofujita@gmail.com"]
-  spec.summary       = %q{TODO: Write a short summary. Required.}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
-  spec.homepage      = ""
+  spec.summary       = %q{Ruby client for deploygate API}
+  spec.description   = %q{Ruby client for deploygate API}
+  spec.homepage      = "https://github.com/tkeo/deploygate-api"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
