@@ -4,6 +4,7 @@ require "faraday_middleware"
 
 module Deploygate
   module Api
+    autoload :Cli,    "deploygate/api/cli"
     autoload :Invite, "deploygate/api/invite"
     autoload :Push,   "deploygate/api/push"
 
